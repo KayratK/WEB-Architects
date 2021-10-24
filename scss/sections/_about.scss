@@ -1,0 +1,42 @@
+.about {
+    .title {
+        margin: 30px 0 20px;
+    }
+    .container {
+        background: $bg-gray;
+        .about__items {
+            display: flex;
+            width: 270px;
+            margin-bottom: 120px;
+            .arrow {
+                display: flex;
+            }
+            .about__image1 {
+                margin: 30px 30px 30px 100px;
+                box-sizing: border-box;
+            }
+            .about__image2 {
+                margin-left: 100px;
+                box-sizing: border-box;
+            }
+            .about__image3 {
+                margin: 60px 30px 0 0;
+                box-sizing: border-box;
+            }
+            a {
+                @include font(12px);
+                letter-spacing: 0.2em;
+                text-transform: uppercase;
+                color: $text-black;
+                background: $bg-white;
+                padding: 30px 65px;
+                display: flex;
+                align-items: center;
+                span {
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,21 @@
+.parking__title {
+    margin-bottom: 60px;
+}
+.parking__img {
+    &:last-child {
+        margin-bottom: 120px;
+    }
+    img {
+        margin-bottom: 30px;
+
+    }
+}
+.parking__view {
+    display: flex;
+    p {
+        @include font(16px, 300);
+        line-height: 25px;
+        color: $black;
+        margin: 0 135px 0 30px;
+    }
+}

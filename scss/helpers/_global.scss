@@ -1,0 +1,150 @@
+body {
+    position: relative;
+    margin: 0;
+    font-family: 'TT Hoves';
+    width: 100%;
+    height: 100vh;
+    background: #000;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: $bg-white;
+    padding-left: 135px;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+.col-1 {
+    width: 8.88%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 24.44%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 42.22%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.88%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 74.44%
+}
+.title {
+    @include font(64px, 300);
+    color: $text-gray;
+}
+.subtitle {
+    @include font(16px, 300);
+    color: $black;
+    width: 400px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+h1 {
+    @include font(64px, 300);
+    color: $text-gray;
+    margin-top: 100px;
+}
+h2 {
+    @include font(64px, 700);
+    color: $text-black;
+}
+span {
+    margin: 0;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    input {
+        margin-bottom: 10px;
+        background: #F3F3F3;
+        height: 50px;
+        border: none;
+        padding-left: 20px;
+    }
+    textarea {
+        padding: 15px 0 0 20px;
+        border: none;
+        background: #F3F3F3;
+        height: 98px;
+    }
+
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+    input {
+        background: #F3F3F3;
+        width: 24px;
+        height: 24px;
+        margin-top: 28px;
+        margin-right: 22px;
+    }
+    p {
+        @include font(14px);
+        letter-spacing: 0.03em;
+        color: #333333;
+        width: 330px;
+        margin-top: 5px;
+        margin-top: 28px;
+    }
+}
+.button {
+    display: flex;
+    background: $bg-black;
+    padding: 30px 40px;
+    span {
+        @include font(12px);
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: $text-white;
+        margin-right: 12px;
+    }
+    a {
+        display: flex;
+        align-items: center;
+    }
+}
+.next, .prev {
+    margin: 90px 24px 90px 0;
+    padding: 22px 18px;
+    background: #F9F9F9;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.hero__pages {
+    @include font(24px);
+    color: $text-gray;
+    svg {
+        margin: 0 30px;
+    }
+}

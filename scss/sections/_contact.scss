@@ -1,0 +1,21 @@
+.contacts {
+    &__left {
+        margin-top: 12px;
+    }
+    .contacts__parties {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    &__right {
+        img {
+            height: 370px;
+        }
+    }
+    .contacts__button {
+        display: flex;
+        margin-bottom: 120px;
+        &.button {
+            padding: 30px 50px;
+        }
+    }
+}

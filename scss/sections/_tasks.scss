@@ -1,0 +1,38 @@
+.tasks {
+    .task__numbers {
+        display: flex;
+    }
+    .task__number1 {
+        display: flex;
+        align-items: center;
+        margin-right: 190px;
+        span {
+            @include font(200px, 900);
+            color: #F2F2F2;
+            margin-right: 30px;
+            height: 300px;
+        }
+        p {
+            @include font(22px);
+            color: $text-black;
+            height: 144px;
+            width: 280px;
+        }
+    }
+    .task__number2 {
+        display: flex;
+        align-items: center;
+        span {
+            @include font(200px, 900);
+            color: #F2F2F2;
+            margin-right: 30px;
+            height: 300px;
+        }
+        p {
+            @include font(22px);
+            color: $text-black;
+            height: 144px;
+            width: 420px;
+        }
+    }
+}

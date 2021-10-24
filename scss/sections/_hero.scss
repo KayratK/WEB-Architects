@@ -1,0 +1,35 @@
+.hero__top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 120px;
+    .title {
+        margin-right: 70px;
+        box-sizing: border-box;
+    }
+    h1 {
+        @include font(64px, 300);
+        color: $text-gray;
+    }
+    h2 {
+        @include font(64px, 700);
+        color: $text-black;
+    }
+    .project__image{
+        display: flex;
+        align-items: flex-end;
+    }
+    .project__look {
+        @include font(12px);
+        position: absolute;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: $text-black;
+        background: $bg-white;
+        padding: 30px 50px;
+        display: flex;
+        align-items: center;
+        span {
+            margin-right: 12px;
+        }
+    }
+}

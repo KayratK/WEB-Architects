@@ -1,0 +1,32 @@
+.projects-hero-view__row {
+    display: flex;
+    margin-top: 60px;
+    background: $bg-gray;
+    a {
+        @include font(12px);
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: $text-black;
+        background: $bg-white;
+        padding: 30px 52px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        span {
+            margin-right: 12px;
+        }
+    }
+    .arrow {
+        display: flex;
+        cursor: pointer;
+    }
+}
+.projects-hero-view__img {
+    margin-right: 30px;
+}
+.project__title {
+    @include font(40px, 300);
+    color: $text-gray;
+    margin-bottom: 20px;
+}
+
