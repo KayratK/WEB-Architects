@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 1100px) {
   .container {
-    width: 992px;
+    width: 1100px;
     padding: 0;
     margin: 0;
     display: -webkit-box;
@@ -63,6 +63,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-left: 100px;
   }
   .tasks .task__numbers {
     display: -webkit-box;
@@ -78,6 +79,7 @@
   }
   .projects .container .project__items .title {
     padding: 10px;
+    margin-left: 265px;
   }
   .projects .container .project__items .project__images {
     -webkit-box-orient: vertical;
@@ -96,8 +98,20 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .contacts .container .title {
+    margin: 0 265px 50px;
+  }
+  .contacts .container .contacts__parties .contacts__left {
+    margin-left: 100px;
+  }
   .contacts .container .contacts__parties .contacts__left .form textarea {
-    width: 310px;
+    width: 346px;
+  }
+  .contacts .container .contacts__parties .contacts__right img {
+    width: 550px;
+  }
+  .contacts .container .contacts__button {
+    margin-left: 100px;
   }
   .footer .container {
     height: 200px;
@@ -135,11 +149,36 @@
   .footer .container .footer__social .footer__social-icons img {
     padding: 5px;
   }
+  .footer .container hr {
+    margin: 0;
+  }
   .footer .container .copyright {
-    width: 150p;
+    width: 200px;
     text-align: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .gallery-hero .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 78vh;
+  }
+  .gallery-hero__title {
+    margin: 0 108px 100px;
+  }
+  .gallery-hero__title h1 {
+    font-size: 32px;
+  }
+  .gallery-hero__title h2 {
+    font-size: 32px;
+  }
+  .gallery-hero__images {
+    margin: 0 108px 100px;
+  }
+  .gallery-hero__slider {
+    margin: 0 108px;
   }
 }
