@@ -493,3 +493,111 @@
     width: 550px;
   }
 }
+
+/* Iphone */
+@media screen and (max-width: 576px) {
+  .container {
+    width: auto;
+  }
+  .header .col-7 ul li {
+    margin: 10px 10px 0 0;
+  }
+  .header .col-7 ul a {
+    font-size: 8px;
+  }
+  .hero__top .title .col-4 h1, .hero__top .title .col-4 h2 {
+    font-size: 22px;
+  }
+  .hero__top .title .next, .hero__top .title .prev {
+    padding: 0;
+    margin: 0;
+  }
+  .hero__top .title .hero__pages span {
+    font-size: 15px;
+  }
+  .hero__top .title .hero__pages svg {
+    margin: 0;
+    height: 15px;
+  }
+  .hero__top .project__image {
+    width: 80%;
+  }
+  .hero__top .project__image .project__look {
+    padding: 10px;
+  }
+  .hero__top .project__image .project__look span {
+    font-size: 6px;
+  }
+  .hero__top .project__image .project__look svg {
+    width: 12px;
+  }
+  .about .container .about__items .about__item img {
+    width: 62%;
+    margin: 0 0 20px 40px;
+  }
+  .about .container .about__items .about__item-two .about__image3 {
+    width: 62%;
+    margin: 0 0 0 40px;
+  }
+  .about .container .about__items .about__main {
+    margin: 20px 70px;
+  }
+  .tasks .container .title {
+    margin: 0;
+    font-size: 44px;
+    text-align: center;
+  }
+  .tasks .container .task__numbers {
+    margin-left: 50px;
+  }
+  .tasks .container .task__numbers .task__number1 span {
+    height: 180px;
+    font-size: 120px;
+  }
+  .tasks .container .task__numbers .task__number1 p {
+    font-size: 14px;
+  }
+  .tasks .container .task__numbers .task__number2 span {
+    height: 180px;
+    font-size: 120px;
+  }
+  .tasks .container .task__numbers .task__number2 p {
+    font-size: 14px;
+    margin-left: 20px;
+    width: 175px;
+    height: 160px;
+  }
+  .projects .container .project__items .title {
+    margin: 60px 40px 40px;
+    font-size: 44px;
+  }
+  .projects .container .project__items .project__images {
+    margin-left: 40px;
+  }
+  .projects .container .project__items .project__images .project__image img {
+    width: 160%;
+    margin-bottom: 20px;
+  }
+  .projects .container .project__items .project__images .project__image3 img {
+    width: 50%;
+    margin: 0 100px 15px 0;
+  }
+  .projects .container .project__items .project__images .project__image4 img {
+    width: 70%;
+    margin: 15px 100px 15px 0;
+  }
+  .projects .container .project__items .project__images .project__image5 img {
+    width: 300px;
+    margin-right: 90px;
+  }
+  .projects .container .project__items .project__items-button .button {
+    padding: 10px;
+    margin-left: 20px;
+  }
+  .projects .container .project__items .project__items-button .button a span {
+    font-size: 8px;
+  }
+  .projects .container .project__items .project__items-button .button a svg {
+    width: 10px;
+  }
+}

@@ -511,3 +511,164 @@
     }
 }
 
+/* Iphone */ 
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: auto;
+    }
+    .header {
+        .col-7 {
+            ul {
+                li {
+                    margin: 10px 10px 0 0;
+                }
+                a {
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+    .hero {
+        &__top {
+            .title {
+                .col-4 {
+                    h1, h2 {
+                        font-size: 22px;
+                    }
+                }
+                .next, .prev {
+                    padding: 0;
+                    margin: 0;
+                }
+                .hero__pages {
+                    span {
+                        font-size: 15px;
+                    }
+                    svg {
+                        margin: 0;
+                        height: 15px;
+                    }
+                }
+            }
+            .project__image {
+                width: 80%;
+                .project__look {
+                    padding: 10px;
+                    span {
+                        font-size: 6px;
+                    }
+                    svg {
+                        width: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .about {
+        .container {
+            .about__items {
+                .about__item {
+                    img {
+                        width: 62%;
+                        margin: 0 0 20px 40px;
+                    }
+                }
+                .about__item-two {
+                    .about__image3 {
+                        width: 62%;
+                        margin: 0 0 0 40px;
+                    }
+                }
+                .about__main {
+                    margin: 20px 70px;
+                }
+            }
+        }
+    }
+    .tasks {
+        .container {
+            .title {
+                margin: 0;
+                font-size: 44px;
+                text-align: center;
+            }
+            .task__numbers {
+                margin-left: 50px;
+                .task__number1 {
+                    span {
+                        height: 180px;
+                        font-size: 120px;
+                    }
+                    p {
+                        font-size: 14px;
+                    }
+                }
+                .task__number2 {
+                    span {
+                        height: 180px;
+                        font-size: 120px;
+                    }
+                    p {
+                        font-size: 14px;
+                        margin-left: 20px;
+                        width: 175px;
+                        height: 160px;
+                    }
+                }
+            }
+        }
+    }
+    .projects {
+        .container {
+            .project__items {
+                .title {
+                    margin: 60px 40px 40px;
+                    font-size: 44px;
+                }
+                .project__images {
+                    margin-left: 40px;
+                    .project__image {
+                        img {
+                            width: 160%;
+                            margin-bottom: 20px;
+                        }
+                    }
+                    .project__image3 {
+                        img {
+                            width: 50%;
+                            margin: 0 100px 15px 0;
+                        }
+                    }
+                    .project__image4 {
+                        img {
+                            width: 70%;
+                            margin: 15px 100px 15px 0;
+                        }
+                    }
+                    .project__image5 {
+                        img {
+                            width: 300px;
+                            margin-right: 90px;
+                        }
+                    }
+                }
+                .project__items-button {
+                    .button {
+                        padding: 10px;
+                        margin-left: 20px;
+                        a {
+                            span {
+                                font-size: 8px;
+                            }
+                            svg {
+                                width: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
