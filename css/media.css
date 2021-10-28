@@ -278,17 +278,17 @@
     margin: 0 40px;
   }
   .gallery-hero__title h1 {
-    font-size: 28px;
+    font-size: 32px;
   }
   .gallery-hero__title h2 {
-    font-size: 28px;
+    font-size: 32px;
   }
   .gallery-hero__images {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 190%;
+    width: 290%;
   }
   .footer .container {
     height: 400px;
@@ -396,5 +396,79 @@
   .about .container .about__items .about__item-two .about__image3 {
     margin: 30px 0 0 100px;
     width: 72%;
+  }
+  .tasks .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tasks .container h3 {
+    margin-left: 120px;
+  }
+  .tasks .container .task__numbers {
+    margin-left: 100px;
+  }
+  .projects .container .project__items .title {
+    margin-left: 162px;
+  }
+  .projects .container .project__items .project__images {
+    margin-left: 100px;
+  }
+  .contacts .container .title {
+    margin: 10px 120px 50px;
+  }
+  .contacts__parties {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 100px;
+  }
+  .contacts__left {
+    margin-bottom: 50px;
+  }
+  .contacts__left .form textarea {
+    width: 322px;
+  }
+  .contacts__right {
+    margin-bottom: 20px;
+  }
+  .projects-hero-view .container .projects-hero__title {
+    margin-left: 230px;
+  }
+  .projects-hero-view__row {
+    display: block;
+    margin-left: 50px;
+  }
+  .projects-hero-view__row .titles .project__title {
+    width: 100%;
+  }
+  .projects-hero-view__row .titles .subtitle {
+    width: 70%;
+    height: 50px;
+  }
+  .projects-hero-view__row .titles .arrow {
+    margin-left: 200px;
+  }
+  .projects-hero-view .gallery-hero__slider {
+    margin: 0 230px;
+  }
+  .projects-hero-view .gallery-hero__slider .hero__pages svg {
+    margin: 0 15px;
+  }
+  .certificates__title {
+    margin-left: -190px;
+  }
+  .certificates__img {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 72%;
+    margin-left: -90px;
+  }
+  .certificates .gallery-hero__slider {
+    margin-right: 80px;
   }
 }

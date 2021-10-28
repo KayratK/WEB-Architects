@@ -269,15 +269,15 @@
     .gallery-hero__title {
         margin: 0 40px;
         h1 {
-            font-size: 28px;
+            font-size: 32px;
         }
         h2 {
-            font-size: 28px;
+            font-size: 32px;
         }
     }
     .gallery-hero__images {
         flex-direction: column;
-        width: 190%;
+        width: 290%;
     }
     .footer {
         .container {
@@ -389,6 +389,94 @@
             }
         }
     }
-
+    .tasks {
+        .container {
+            flex-direction: column;
+            h3 {
+                margin-left: 120px;
+            }
+            .task__numbers {
+                margin-left: 100px;
+            }
+        }
+    }
+    .projects {
+        .container {
+            .project__items {
+                .title {
+                    margin-left: 162px;
+                }
+                .project__images {
+                    margin-left: 100px;
+                }
+            }
+        }
+    }
+    .contacts {
+        .container {
+            .title {
+                margin: 10px 120px 50px;
+            }
+        }
+        &__parties {
+            flex-direction: column;
+            margin: 0 100px;
+        }
+        &__left {
+            margin-bottom: 50px;
+            .form {
+                textarea {
+                    width: 322px;
+                }
+            }
+        }
+        &__right {
+            margin-bottom: 20px;
+        }
+    }
+    .projects-hero-view {
+        .container {
+            .projects-hero__title {
+                margin-left: 230px;
+            }
+        }
+        &__row {
+            display: block;
+            margin-left: 50px;
+            .titles {
+                .project__title {
+                    width: 100%;
+                }
+                .subtitle {
+                    width: 70%;
+                    height: 50px;
+                }
+                .arrow {
+                    margin-left: 200px;
+                }
+            }
+        }
+        .gallery-hero__slider {
+            margin: 0 230px;
+            .hero__pages {
+                svg {
+                    margin: 0 15px;
+                }
+            }
+        }
+    }
+    .certificates {
+        &__title {
+            margin-left: -190px;
+        }
+        &__img {
+            flex-direction: column;
+            width: 72%;
+            margin-left: -90px;
+        }
+        .gallery-hero__slider {
+            margin-right: 80px;
+        }
+    }
 }
 
