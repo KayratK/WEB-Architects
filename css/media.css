@@ -415,6 +415,12 @@
   .projects .container .project__items .project__images {
     margin-left: 100px;
   }
+  .contacts .container .contacts__parties .contacts__left {
+    margin-bottom: 50px;
+  }
+  .contacts .container .contacts__parties .contacts__left .form textarea {
+    width: 368px;
+  }
   .contacts .container .title {
     margin: 10px 120px 50px;
   }
@@ -424,12 +430,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
     margin: 0 100px;
-  }
-  .contacts__left {
-    margin-bottom: 50px;
-  }
-  .contacts__left .form textarea {
-    width: 322px;
   }
   .contacts__right {
     margin-bottom: 20px;

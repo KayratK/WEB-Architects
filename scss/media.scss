@@ -414,6 +414,16 @@
     }
     .contacts {
         .container {
+            .contacts__parties {
+                .contacts__left {
+                    margin-bottom: 50px;
+                    .form {
+                        textarea {
+                            width: 368px;
+                        }
+                    }
+                }
+            }
             .title {
                 margin: 10px 120px 50px;
             }
@@ -421,14 +431,6 @@
         &__parties {
             flex-direction: column;
             margin: 0 100px;
-        }
-        &__left {
-            margin-bottom: 50px;
-            .form {
-                textarea {
-                    width: 322px;
-                }
-            }
         }
         &__right {
             margin-bottom: 20px;
