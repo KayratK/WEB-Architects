@@ -633,4 +633,16 @@
   .contacts .container .contacts__button .button a svg {
     width: 12px;
   }
+  .gallery-hero__images {
+    margin: 0 85px;
+  }
+  .gallery-hero__image img {
+    width: 93%;
+  }
+  .gallery-hero__slider {
+    margin: 0 50px;
+  }
+  .gallery-hero__slider .next, .gallery-hero__slider .prev {
+    margin-top: 80px;
+  }
 }

@@ -711,5 +711,21 @@
             }
         }
     }
+    .gallery-hero {
+        &__images {
+            margin: 0 85px;
+        }
+        &__image {
+            img {
+                width: 93%;
+            }
+        }
+        &__slider {
+            margin: 0 50px;
+            .next, .prev {
+                margin-top: 80px;
+            }
+        }
+    }
 }
 
