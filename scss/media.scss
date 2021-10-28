@@ -478,5 +478,34 @@
             margin-right: 80px;
         }
     }
+    .certificates__row {
+        .certificates__right {
+            margin-right: 250px;
+            img {
+                width: 72%;
+            }
+        }
+        .certificates__left {
+            margin-right: 220px;
+            .certificates__title {
+                margin-left: 1px;
+            }
+        }
+    }
+    .parking {
+        &__title {
+            margin: 0 -30px 50px;
+        }
+        &__img {
+            img {
+                width: 65%;
+            }
+        }
+        &__view {
+            p {
+                width: 550px;
+            }
+        }
+    }
 }
 

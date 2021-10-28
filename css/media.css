@@ -471,4 +471,25 @@
   .certificates .gallery-hero__slider {
     margin-right: 80px;
   }
+  .certificates__row .certificates__right {
+    margin-right: 250px;
+  }
+  .certificates__row .certificates__right img {
+    width: 72%;
+  }
+  .certificates__row .certificates__left {
+    margin-right: 220px;
+  }
+  .certificates__row .certificates__left .certificates__title {
+    margin-left: 1px;
+  }
+  .parking__title {
+    margin: 0 -30px 50px;
+  }
+  .parking__img img {
+    width: 65%;
+  }
+  .parking__view p {
+    width: 550px;
+  }
 }
