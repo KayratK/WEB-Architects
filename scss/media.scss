@@ -144,7 +144,6 @@
             .footer__social {
                 margin-right: 20px;
                 .footer__social-icons {
-                    flex-direction: column;
                     width: 20px;
                     height: 20px;
                     img {
@@ -246,7 +245,120 @@
 
 /* ipad */
 
-@media screen and (max-width: 1023px) {
-
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 992px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    .header {
+        margin: 0;
+        padding: 10px 40px;
+        display: block;
+        .col-7 {
+            margin: 0;
+            ul {
+                margin: 0;
+                li {
+                    margin: 10px 70px 0 0;
+                }
+            }
+        }
+    }
+    .gallery-hero__title {
+        margin: 0 40px;
+        h1 {
+            font-size: 28px;
+        }
+        h2 {
+            font-size: 28px;
+        }
+    }
+    .gallery-hero__images {
+        flex-direction: column;
+        width: 190%;
+    }
+    .footer {
+        .container {
+            height: 400px;
+        }
+        &__row {
+            flex-direction: column;
+        }
+        &__logo {
+            margin: 0 0 20px 0;
+            img {
+                width: 60%;
+            }
+        }
+        &__info {
+            margin: 0 0 10px 40px;
+            .footer__span {
+                font-size: 12px;
+                margin: 0;
+            }
+            ul {
+                li {
+                    font-size: 10px;
+                    margin: 0;
+                }
+            }
+        }
+        &__contacts {
+            width: 150px;
+            margin: 0 0 10px 20px;
+            .footer__span {
+                font-size: 12px;
+                margin: 0;
+            }
+            ul {
+                li {
+                    &:last-child {
+                        margin: 0;
+                        svg {
+                            margin: 0 5px 0 0;
+                            width: 15px;
+                        }
+                    }
+                    margin: 0;
+                    font-size: 10px;
+                    .location {
+                        margin: 0;
+                        svg {
+                            margin: 0;
+                        }
+                        div {
+                            display: flex;
+                            flex-direction: column;
+                            width: 100px;
+                            height: 30px;
+                        }
+                    }
+                    .number {
+                        margin: 0;
+                        svg {
+                            margin: 0 5px 0 0;
+                            width: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        &__social {
+            margin: 0 0 10px 20px;
+            .footer__span {
+                font-size: 12px;
+                margin: 0;
+            }
+            .footer__social-icons {
+                display: flex;
+                margin: 0;
+            }
+        }
+    }
+    .copyright {
+        width: 500px;
+    }
 }
 
