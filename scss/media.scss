@@ -570,13 +570,13 @@
             .about__items {
                 .about__item {
                     img {
-                        width: 62%;
+                        width: 80%;
                         margin: 0 0 20px 40px;
                     }
                 }
                 .about__item-two {
                     .about__image3 {
-                        width: 62%;
+                        width: 80%;
                         margin: 0 0 0 40px;
                     }
                 }
@@ -664,6 +664,47 @@
                             svg {
                                 width: 10px;
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contacts {
+        .container {
+            .title {
+                font-size: 44px;
+                margin-left: 70px;
+            }
+            .contacts__parties {
+                margin: 0;
+                .contacts__left {
+                    margin-left: 40px;
+                    form {
+                        width: 295px;
+                        textarea {
+                            width: 275px;
+                        }
+                    }
+                }
+                .contacts__right {
+                    img {
+                        width: 80%;
+                        height: 100%;
+                        margin-left: 40px; 
+                    }
+                }
+            }
+            .contacts__button {
+                margin-left: 150px;
+                .button {
+                    padding: 5px;
+                    a {
+                        span {
+                            font-size: 6px;
+                        }
+                        svg {
+                            width: 12px;
                         }
                     }
                 }

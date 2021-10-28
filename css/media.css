@@ -532,11 +532,11 @@
     width: 12px;
   }
   .about .container .about__items .about__item img {
-    width: 62%;
+    width: 80%;
     margin: 0 0 20px 40px;
   }
   .about .container .about__items .about__item-two .about__image3 {
-    width: 62%;
+    width: 80%;
     margin: 0 0 0 40px;
   }
   .about .container .about__items .about__main {
@@ -599,5 +599,38 @@
   }
   .projects .container .project__items .project__items-button .button a svg {
     width: 10px;
+  }
+  .contacts .container .title {
+    font-size: 44px;
+    margin-left: 70px;
+  }
+  .contacts .container .contacts__parties {
+    margin: 0;
+  }
+  .contacts .container .contacts__parties .contacts__left {
+    margin-left: 40px;
+  }
+  .contacts .container .contacts__parties .contacts__left form {
+    width: 295px;
+  }
+  .contacts .container .contacts__parties .contacts__left form textarea {
+    width: 275px;
+  }
+  .contacts .container .contacts__parties .contacts__right img {
+    width: 80%;
+    height: 100%;
+    margin-left: 40px;
+  }
+  .contacts .container .contacts__button {
+    margin-left: 150px;
+  }
+  .contacts .container .contacts__button .button {
+    padding: 5px;
+  }
+  .contacts .container .contacts__button .button a span {
+    font-size: 6px;
+  }
+  .contacts .container .contacts__button .button a svg {
+    width: 12px;
   }
 }
