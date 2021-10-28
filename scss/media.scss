@@ -360,5 +360,35 @@
     .copyright {
         width: 500px;
     }
+    .col-8 {
+        img {
+            width: 100%;
+        }
+    }
+    .about {
+        .container {
+            .about__items {
+                flex-direction: column;
+                .about__item {
+                    img {
+                        width: 72%;
+                    }
+                }
+                .about__main {
+                    margin-left: 260px;
+                    p {
+                        text-align: center;
+                    }
+                }
+                .about__item-two {
+                    .about__image3 {
+                        margin: 30px 0 0 100px;
+                        width: 72%;
+                    }
+                }
+            }
+        }
+    }
+
 }
 
