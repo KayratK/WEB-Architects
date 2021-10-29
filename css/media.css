@@ -645,4 +645,98 @@
   .gallery-hero__slider .next, .gallery-hero__slider .prev {
     margin-top: 80px;
   }
+  .projects-hero-view .container .projects-hero__title {
+    margin: 0;
+  }
+  .projects-hero-view .container .projects-hero__title h1, .projects-hero-view .container .projects-hero__title h2 {
+    font-size: 32px;
+    margin: 10px 0 0 40px;
+  }
+  .projects-hero-view__row {
+    margin: 0;
+  }
+  .projects-hero-view__img {
+    margin: 10px 30px 0 40px;
+  }
+  .projects-hero-view__img img {
+    width: 100%;
+  }
+  .projects-hero-view .titles {
+    margin: 20px 0 0 40px;
+  }
+  .projects-hero-view .titles .project__title {
+    font-size: 20px;
+  }
+  .projects-hero-view .titles .subtitle {
+    width: 90%;
+    height: 130px;
+  }
+  .projects-hero-view .titles .arrow {
+    margin: 0;
+  }
+  .projects-hero-view .titles .arrow a {
+    padding: 20px;
+  }
+  .projects-hero-view .titles .arrow a span {
+    font-size: 8px;
+  }
+  .projects-hero-view .titles .arrow a svg {
+    width: 12px;
+  }
+  .projects-hero-view .gallery-hero__slider {
+    margin: 0 40px 40px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .projects-hero-view .gallery-hero__slider .hero__pages {
+    margin: 0 20px 15px 0;
+    height: 20px;
+  }
+  .projects-hero-view .gallery-hero__slider .hero__pages svg {
+    height: 20px;
+  }
+  .projects-hero-view .gallery-hero__slider .next, .projects-hero-view .gallery-hero__slider .prev {
+    margin: 0;
+  }
+  .certificates__title {
+    margin: 0;
+  }
+  .certificates__title h1, .certificates__title h2 {
+    font-size: 32px;
+  }
+  .certificates__img {
+    margin: 0;
+  }
+  .certificates__slider {
+    margin: 0;
+  }
+  .certificates__row .certificates__right {
+    margin: 20px 35px 0 0;
+  }
+  .certificates__row .certificates__right svg {
+    margin: 40px 0 0 -200px;
+  }
+  .certificates__row .certificates__left {
+    margin: 0;
+  }
+  .parking__wrapper {
+    margin: 0 40px;
+  }
+  .parking__title {
+    margin: 0 0 30px;
+  }
+  .parking__title h1, .parking__title h2 {
+    font-size: 32px;
+  }
+  .parking__img img {
+    width: 100%;
+  }
+  .parking__view {
+    height: 850px;
+  }
+  .parking__view p {
+    width: 300px;
+    margin: 0;
+  }
 }

@@ -727,5 +727,109 @@
             }
         }
     }
+    .projects-hero-view {
+        .container {
+            .projects-hero__title {
+                margin: 0;
+                h1, h2 {
+                    font-size: 32px;
+                    margin: 10px 0 0 40px;
+                }
+            }
+        }
+        &__row {
+            margin: 0;
+        }
+        &__img {
+            margin: 10px 30px 0 40px;
+            img {
+                width: 100%;
+            }
+        }
+        .titles {
+            margin: 20px 0 0 40px;
+            .project__title {
+                font-size: 20px;
+            }
+            .subtitle {
+                width: 90%;
+                height: 130px;
+            }
+            .arrow {
+                margin: 0;
+                a {
+                    padding: 20px;
+                    span {
+                        font-size: 8px;
+                    }
+                    svg {
+                        width: 12px;
+                    }
+                }
+            }
+        }
+        .gallery-hero__slider {
+            margin: 0 40px 40px;
+            align-items: center;
+            .hero__pages {
+                margin: 0 20px 15px 0;
+                height: 20px;
+                svg {
+                    height: 20px;
+                }
+            }
+            .next, .prev {
+                margin: 0;
+            }
+        }
+    }
+    .certificates {
+        &__title {
+            margin: 0;
+            h1, h2 {
+                font-size: 32px;
+            }
+        }
+        &__img {
+            margin: 0;
+        }
+        &__slider {
+            margin: 0;
+        }
+    }
+    .certificates__row {
+        .certificates__right {
+            margin: 20px 35px 0 0;
+            svg {
+                margin: 40px 0 0 -200px;
+            }
+        }
+        .certificates__left {
+            margin: 0;
+        }
+    }
+    .parking {
+        &__wrapper {
+            margin: 0 40px;
+        }
+        &__title {
+            margin: 0 0 30px;
+            h1, h2 {
+                font-size: 32px;
+            }
+        }
+        &__img {
+            img {
+                width: 100%;
+            }
+        }
+        &__view {
+            height: 850px;
+            p {
+                width: 300px;
+                margin: 0;
+            }
+        }
+    }
 }
 
