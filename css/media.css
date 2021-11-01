@@ -90,6 +90,39 @@
     text-align: center;
     margin-left: 215px;
   }
+  .projects .container .project__items .project__images .project__image .project-image__info {
+    width: 192%;
+  }
+  .projects .container .project__items .project__images .project__image .project-image__info .project-image__button span {
+    padding-left: 220px;
+  }
+  .projects .container .project__items .project__images .project__image3 .project-image__info {
+    margin-left: 149px;
+    top: 15px;
+    width: 45%;
+  }
+  .projects .container .project__items .project__images .project__image3 .project-image__info h5 {
+    font-size: 40px;
+    padding: 65px 0 0;
+  }
+  .projects .container .project__items .project__images .project__image4 .project-image__info {
+    margin-left: 50px;
+    width: 470px;
+    top: 15px;
+  }
+  .projects .container .project__items .project__images .project__image4 .project-image__info .project-image__button span {
+    padding-left: 190px;
+  }
+  .projects .container .project__items .project__images .project__image5 .project-image__info {
+    margin-left: 100px;
+    width: 62%;
+  }
+  .projects .container .project__items .project__images .project__image5 .project-image__info h5 {
+    padding: 65px 0 0;
+  }
+  .projects .container .project__items .project__images .project__image5 .project-image__info .project-image__button span {
+    padding-left: 130px;
+  }
   .projects .container .project__items-button {
     margin-right: 200px;
   }
@@ -113,6 +146,9 @@
   }
   .contacts .container .contacts__button {
     margin-left: 100px;
+  }
+  .footer {
+    padding-bottom: 500px;
   }
   .footer .container {
     height: 200px;
@@ -290,6 +326,9 @@
             flex-direction: column;
     width: 290%;
   }
+  .footer {
+    padding-bottom: 140px;
+  }
   .footer .container {
     height: 400px;
   }
@@ -414,6 +453,41 @@
   }
   .projects .container .project__items .project__images {
     margin-left: 100px;
+  }
+  .projects .container .project__items .project__images .project__image .project-image__info {
+    width: 192%;
+  }
+  .projects .container .project__items .project__images .project__image .project-image__info .project-image__button span {
+    margin-left: 160px;
+  }
+  .projects .container .project__items .project__images .project__image3 .project-image__info {
+    margin-left: 150px;
+    width: 45%;
+    height: 90%;
+    top: 12px;
+  }
+  .projects .container .project__items .project__images .project__image3 .project-image__info h5 {
+    padding: 65px 0 0;
+    font-size: 40px;
+  }
+  .projects .container .project__items .project__images .project__image4 .project-image__info {
+    margin-left: 50px;
+    top: 13px;
+    width: 471px;
+  }
+  .projects .container .project__items .project__images .project__image4 .project-image__info .project-image__button span {
+    padding-left: 180px;
+  }
+  .projects .container .project__items .project__images .project__image5 .project-image__info {
+    margin-left: 100px;
+    top: 15px;
+    width: 62%;
+  }
+  .projects .container .project__items .project__images .project__image5 .project-image__info h5 {
+    padding-top: 70px;
+  }
+  .projects .container .project__items .project__images .project__image5 .project-image__info .project-image__button span {
+    padding-left: 136px;
   }
   .contacts .container .contacts__parties .contacts__left {
     margin-bottom: 50px;
@@ -574,6 +648,21 @@
   .projects .container .project__items .project__images {
     margin-left: 40px;
   }
+  .projects .container .project__items .project__images .project__image .project-image__info {
+    height: 78px;
+    top: 15px;
+    padding-left: 110px;
+    width: 88%;
+  }
+  .projects .container .project__items .project__images .project__image .project-image__info h5 {
+    font-size: 24px;
+    margin-left: -80px;
+    padding-top: 0;
+  }
+  .projects .container .project__items .project__images .project__image .project-image__info .project-image__button span {
+    margin: 0 0 0 -15px;
+    padding: 0;
+  }
   .projects .container .project__items .project__images .project__image img {
     width: 160%;
     margin-bottom: 20px;
@@ -582,13 +671,52 @@
     width: 50%;
     margin: 0 100px 15px 0;
   }
+  .projects .container .project__items .project__images .project__image3 .project-image__info {
+    height: 96%;
+    width: 50%;
+    top: 0;
+    margin: 0 48px;
+  }
+  .projects .container .project__items .project__images .project__image3 .project-image__info h5 {
+    font-size: 26px;
+    padding: 50px 0 0;
+  }
+  .projects .container .project__items .project__images .project__image3 .project-image__info .project-image__button span {
+    padding-left: 40px;
+  }
   .projects .container .project__items .project__images .project__image4 img {
     width: 70%;
     margin: 15px 100px 15px 0;
   }
+  .projects .container .project__items .project__images .project__image4 .project-image__info {
+    height: 150px;
+    width: 274px;
+    margin-left: 8px;
+    bottom: 19px;
+  }
+  .projects .container .project__items .project__images .project__image4 .project-image__info h5 {
+    padding-top: 30px;
+    font-size: 32px;
+  }
+  .projects .container .project__items .project__images .project__image4 .project-image__info .project-image__button span {
+    padding-left: 80px;
+  }
   .projects .container .project__items .project__images .project__image5 img {
     width: 300px;
     margin-right: 90px;
+  }
+  .projects .container .project__items .project__images .project__image5 .project-image__info {
+    height: 87%;
+    width: 77%;
+    top: 12px;
+    margin: 0;
+  }
+  .projects .container .project__items .project__images .project__image5 .project-image__info h5 {
+    padding: 50px 0 0;
+    font-size: 50px;
+  }
+  .projects .container .project__items .project__images .project__image5 .project-image__info .project-image__button span {
+    padding-left: 95px;
   }
   .projects .container .project__items .project__items-button .button {
     padding: 10px;
@@ -638,6 +766,18 @@
   }
   .gallery-hero__image img {
     width: 93%;
+  }
+  .gallery-hero__image:hover .gallery-hero__info {
+    opacity: 1;
+    left: 0;
+    top: 160px;
+  }
+  .gallery-hero__image .gallery-hero__info {
+    width: 167px;
+    padding-left: 10px;
+  }
+  .gallery-hero__image .gallery-hero__info span {
+    font-size: 14px;
   }
   .gallery-hero__slider {
     margin: 0 50px;
